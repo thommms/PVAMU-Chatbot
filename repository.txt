@@ -1,0 +1,93 @@
+1 
+ 
+  
+Curriculum Vitae
+ 
+Faculty Name: 
+ Kiranmai Bellam Work Address: 
+ P.O. Box 519; MS 2515 
+Prairie View, TX 77446
+Position Title: Associate professor 
+Office Location:   SR Collins Suite 317 
+Office Phone:  936-261-9883 
+Email Address:  kibellam@pvamu.edu 
+ 
+Education:  Degree and Area of Study Institution Name Degree Date 
+ Ph.D., Computer Science Auburn University May 2009 
+M.S., Computer Science New Mexico Tech Dec 2006 
+B.S., Information Technology Madras University Dec 2003  
+Teaching Experience  Position Title Institution Name Position Dates  
+(Beginning and End) 
+ Associate Professor Prairie View A & M University Sept 2015 - Present 
+Assistant Professor Prairie View A & M University Aug 2009 - 2015 
+ 
+Professional 
+Publications:  K. Bellam, Y. Yang, S. Frizell and T. Robinson,  “Storage disk systems en ergy conservation and 
+reliability improvement”, International Journal on Recent and Innovation Trends in Computing 
+and Communication , Vol. 2, 2014 
+  
+ K. Bellam, “Cloud Based Data Backup of DFDR ’s for Emergency and Safety protocols”, 
+International Conference on Safety By De sign (Abstract) (ICSBD 2013), August 2013 
+  
+ Y. Yang, L. Li, and K. Bellam, “VMathLab, a 3D -Game-Like System for College Math Learning 
+Enhancement,” International Journal of Comput er Theory and Engineering vol. 4, no. 4, pp.  
+579-583, 2012 
+  
+ A. Lodgher, K. Bellam, “Teaching Innovation to  Graduate Students in Computer Information 
+Systems (CIS)”, Communications of the Inter national Information Management Association 
+(CIIMA), 2012 
+  
+ A. Lodgher and K. Bellam “Design and Implementation of CRM Applications using open source 
+SugarCRM”, 23rd Annual International Informat ion Management Association (IIMA), October 
+2012 
+  
+ M. Nijim, Y. Lee, and K. Bellam, “HyBuM: Hybrid  Energy Efficient Architecture for Mobile 
+Storage Systems”, 9th IEEE International C onference on Information Technology: New 
+Generations, Las Vegas, Nevada, April 2012 
+  
+ A. Lodgher and K. Bellam, “Emerging Consum er Technology Applications developed at 
+PVAMU”, IEEE Consumer Communications & Netw orking Conference (CCNC), Las Vegas, 
+Nevada, Jan 2012 
+  
+ K. Bellam, “Effects of Power State Transitions  on Reliability and Energy Efficiency of Parallel 
+Storage Systems”, High Performance Computing & Simulation Conference (HPCS 2011), July 
+2011 
+  
+ K. Bellam and X. Qin “Reliability Aware Power Conservation Model for Storage Systems”, 4th 
+IEEE Intn’l Conf on Computer Science and Info rmation Technology (ICCS IT 2011), June 2011 2 
+  M. Nijim, Z. L. Zong, K. Bellam, S. Yin, and X.  Qin, "Quality of Security Adaptation in Parallel 
+Disk Systems", Journal of Parallel and Distri buted Computing, Vol, 71, Issue 2, pp. 288-301, 
+Feb. 2011 
+  
+ F. Shen, X. Qin, A.Salazar, A. Manzanares, and K. Bellam, " An Energy-Efficient Reliability 
+Model for Parallel Disk Systems," Sixth Int'l C onf. Information Technology, Las Vegas, Nevada, 
+Apr. 2009 
+  
+ X.-J. Ruan, A. Manzanares, K. Bellam, X. Qi n and Z. Zong, “DARAW: A New Write Buffer to 
+Improve Parallel I/O Energy-Efficiency,” Pr oc. 24th Annual ACM Symposium on Applied 
+Computing, Honolulu, Hawaii, March 2009. 
+  
+ X. Qin, M. Alghamdi, M. Nijim, Z.-L. Zong, K.  Bellam, X.-J. Ruan, and A. A. Manzanares, 
+“Improving Security of Real-Time Wirele ss Networks through Pack et Scheduling,” IEEE 
+Transactions on Wireless Communications, vol. 7, no. 9, pp. 3273-3279, Sept. 2008 
+  
+ K. Bellam, A. Manzanares, X. Ruan, and X. Qin,  "Integrating Security and Reliability in Real-
+time Embedded Systems", Journal of Autonomic and Trusted Computing(JoATC), Mar 2008.   
+  
+ A. Roth, A. Manzanares, K. Bellam , X. Qin, X. Ruan and M. Nijim, “Energy Conservation for 
+Real-Time Disk Systems with I/O Burstiness,” Proc. IEEE Int'l Workshop Next Generation 
+Autonomous Storage and High Performance Computing , St. Thomas, Virgin Islands, Aug. 2008. 
+ 
+ M. Nijim, X. Qin, Z.-L. Zong, X.-J. Ruan and K.  Bellam, “Security-Aware Cache Management for 
+Cluster Storage Systems,” Proc. the 17th Int'l Conf. Computer Communications and Networks 
+(ICCCN), St. Thomas, Virgin Islands, Aug. 2008. 
+  
+ 
+K. Bellam, A. Manzanares, X. Ruan, X. Qin,  and Y.-M. Yang, “Improving Reliability and Energy 
+Efficiency of Disk System s via Utilization Control,” Proc. IEEE Symposiu m on Computers and 
+Communications (ISCC'08) , Marrakech, Morocco, July 2008. [Best Paper Award]   
+ 
+ 
+Additional 
+Trainings/Skills: None 
+ 
