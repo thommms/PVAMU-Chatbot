@@ -86,6 +86,1635 @@
                 "We are open 7am-4pm Monday-Friday!"
             ],
             "context_set": ""
+        },
+        {
+            "tag": "Course Information",
+            "patterns": [
+                "what courses do you offer",
+                "can you tell me about your courses",
+                "what is the course catalog",
+                "what are the course requirements"
+            ],
+            "responses": [
+                "We offer a wide range of courses in various fields. Would you like more information on specific courses?",
+                "Our course catalog is available online and provides detailed information about each course. Would you like me to look something up for you?",
+                "To see a list of our courses and requirements, please visit our website."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Admissions",
+            "patterns": [
+                "how do I apply",
+                "what are the admission requirements",
+                "when is the deadline to apply"
+            ],
+            "responses": [
+                "You can apply online on our website. The admission requirements and application deadlines are available on the website as well.",
+                "To find out more about admission requirements and the application process, please visit our website.",
+                "The deadline to apply is typically in the spring for fall admission. Please check our website for the most up-to-date information."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Financial Aid",
+            "patterns": [
+                "how can I get financial aid",
+                "what scholarships are available",
+                "how do I apply for financial aid"
+            ],
+            "responses": [
+                "You can find information on financial aid options and how to apply on our website.",
+                "We offer a variety of scholarships and financial aid options. Please visit our website for more information.",
+                "To apply for financial aid, please fill out the Free Application for Federal Student Aid (FAFSA) and submit it to our office."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Opening hours",
+            "patterns": [
+                "What are the office hours?",
+                "When is the office open?",
+                "When can I visit the office?"
+            ],
+            "responses": [
+                "The school office is open from 9 AM to 5 PM, Monday to Friday.",
+                "You can visit the school office during its opening hours, which are 9 AM to 5 PM, Monday to Friday."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Location",
+            "patterns": [
+                "Where is the school office located?",
+                "How do I get to the school office?"
+            ],
+            "responses": [
+                "The school office is located at 100 University Drive.",
+                "You can get to the school office by taking the bus or driving. It is located at different locations in the campus. MSC is one very popular pick up point."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Contact information",
+            "patterns": [
+                "What is the phone number for the school office?",
+                "How can I email the school office?"
+            ],
+            "responses": [
+                "You can reach the school office by calling 555-555-5555.",
+                "You can email the school office at office@school.edu."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Services",
+            "patterns": [
+                "What services does the school office provide?",
+                "Can I renew my student ID at the office?"
+            ],
+            "responses": [
+                "The school office provides various services, including renewing student IDs.",
+                "Yes, you can renew your student ID at the school office."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "FAQs",
+            "patterns": [
+                "Can you answer some frequently asked questions about the office hours?",
+                "What are the most common questions about the office?"
+            ],
+            "responses": [
+                "Sure, I'd be happy to answer some frequently asked questions about the office hours. What would you like to know?",
+                "The most common questions about the office hours include its location, contact information, services, and appointment scheduling."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "register_course",
+            "patterns": [
+                "I want to register for {course}",
+                "Can I register for {course}",
+                "How do I register for {course}"
+            ],
+            "responses": [
+                "To register for the course, please log into your student account and follow the steps to enroll in the class."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "How do I make payment?",
+                "What are the payment options?",
+                "When is the payment due?"
+            ],
+            "responses": [
+                "Payments can be made online through your student account, or in-person at the school's bursar office. Payment is due before the start of the semester."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Academic Affairs",
+            "patterns": [
+                "How do I get to the department of Academic Affairs",
+                "where is the building of Academic Affairs",
+                "have any idea where the location of Academic Affairs is?"
+            ],
+            "responses": [
+                "Here are the details of Academic Affairs as of today: \n\nDepartment Name : Academic Affairs         \nDepartment Phone Number: 936-261-2175        \nMail box: 1023        \nAddress/Office location: A I Thomas Bldg, Ste. 212"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Academic Enhancement",
+            "patterns": [
+                "How do I get to the department of Academic Enhancement",
+                "where is the building of Academic Enhancement",
+                "have any idea where the location of Academic Enhancement is?"
+            ],
+            "responses": [
+                "Here are the details of Academic Enhancement as of today: \n\nDepartment Name : Academic Enhancement         \nDepartment Phone Number: 936-261-3635        \nMail box: 3002        \nAddress/Office location: Delco Bldg, Rm. 141"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Science",
+            "patterns": [
+                "How do I get to the department of Computer Science",
+                "where is the building of Computer Science",
+                "have any idea where the location of Computer Science is?"
+            ],
+            "responses": [
+                "Here are the details of Computer Science as of today: \n\nDepartment Name : Computer Science         \nDepartment Phone Number: 936-261-9870        \nMail box: 2515        \nAddress/Office location: S R Collins Ste. 111"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "bellam",
+            "patterns": [
+                "I would like to see Dr Bellam",
+                "Where is Dr. Bellam's office",
+                "When is the office hour or office location of dr Bellam"
+            ],
+            "responses": [
+                "WHYYYYYY"
+            ],
+            "context_set": ""
+        }
+        ,
+        {
+            "tag": "Welcome Center",
+            "patterns": [
+                "How do I get to the department of Welcome Center",
+                "where is the building of Welcome Center",
+                "have any idea where the location of Welcome Center is?"
+            ],
+            "responses": [
+                "Here are the details of Welcome Center as of today: \n\nDepartment Name : Welcome Center         \nDepartment Phone Number: 936-261-1087        \nMail box: 1025        \nAddress/Office location: 1700 T.R. Solomon"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Accounts Payable",
+            "patterns": [
+                "How do I get to the department of Accounts Payable",
+                "where is the building of Accounts Payable",
+                "have any idea where the location of Accounts Payable is?"
+            ],
+            "responses": [
+                "Here are the details of Accounts Payable as of today: \n\nDepartment Name : Accounts Payable         \nDepartment Phone Number: 936-261-1902        \nMail box: 1311        \nAddress/Office location: W R Bank Ste. 129"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Accounting Services",
+            "patterns": [
+                "How do I get to the department of Accounting Services",
+                "where is the building of Accounting Services",
+                "have any idea where the location of Accounting Services is?"
+            ],
+            "responses": [
+                "Here are the details of Accounting Services as of today: \n\nDepartment Name : Accounting Services         \nDepartment Phone Number: 936-261-1901        \nMail box: 1311        \nAddress/Office location: W R Bank Ste. 115"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Accounts Receivable",
+            "patterns": [
+                "How do I get to the department of Accounts Receivable",
+                "where is the building of Accounts Receivable",
+                "have any idea where the location of Accounts Receivable is?"
+            ],
+            "responses": [
+                "Here are the details of Accounts Receivable as of today: \n\nDepartment Name : Accounts Receivable         \nDepartment Phone Number: 936-261-1000        \nMail box: 1329        \nAddress/Office location: W R Bank Ste. 140"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Acct & Info Systems",
+            "patterns": [
+                "How do I get to the department of Acct & Info Systems",
+                "where is the building of Acct & Info Systems",
+                "have any idea where the location of Acct & Info Systems is?"
+            ],
+            "responses": [
+                "Here are the details of Acct & Info Systems as of today: \n\nDepartment Name : Acct & Info Systems         \nDepartment Phone Number: 936-261-9275        \nMail box: 2300        \nAddress/Office location: Hobart Taylor Bldg, Rm. 2C222"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Ag Research - Reception",
+            "patterns": [
+                "How do I get to the department of Ag Research - Reception",
+                "where is the building of Ag Research - Reception",
+                "have any idea where the location of Ag Research - Reception is?"
+            ],
+            "responses": [
+                "Here are the details of Ag Research - Reception as of today: \n\nDepartment Name : Ag Research - Reception         \nDepartment Phone Number: 936-261-5007        \nMail box: 2008        \nAddress/Office location: Ag Research Bldg,\u00a0 Ste. 101"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Ag Research",
+            "patterns": [
+                "How do I get to the department of Ag Research",
+                "where is the building of Ag Research",
+                "have any idea where the location of Ag Research is?"
+            ],
+            "responses": [
+                "Here are the details of Ag Research as of today: \n\nDepartment Name : Ag Research         \nDepartment Phone Number: 936-261-5000        \nMail box: 2008        \nAddress/Office location: Ag Research Bldg,\u00a0 Ste. 101"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Ag Business",
+            "patterns": [
+                "How do I get to the department of Ag Business",
+                "where is the building of Ag Business",
+                "have any idea where the location of Ag Business is?"
+            ],
+            "responses": [
+                "Here are the details of Ag Business as of today: \n\nDepartment Name : Ag Business         \nDepartment Phone Number: 936-261-2540        \nMail box: 2004        \nAddress/Office location: Ag/Business, Ste. 300"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "All Faiths Chapel",
+            "patterns": [
+                "How do I get to the department of All Faiths Chapel",
+                "where is the building of All Faiths Chapel",
+                "have any idea where the location of All Faiths Chapel is?"
+            ],
+            "responses": [
+                "Here are the details of All Faiths Chapel as of today: \n\nDepartment Name : All Faiths Chapel         \nDepartment Phone Number: 936-261-3590        \nMail box: 1021        \nAddress/Office location: Johnson Phillip All Faiths Chapel 111"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Alumni Affairs",
+            "patterns": [
+                "How do I get to the department of Alumni Affairs",
+                "where is the building of Alumni Affairs",
+                "have any idea where the location of Alumni Affairs is?"
+            ],
+            "responses": [
+                "Here are the details of Alumni Affairs as of today: \n\nDepartment Name : Alumni Affairs         \nDepartment Phone Number: 936-261-1550        \nMail box: 1200        \nAddress/Office location: Jesse Drew Complex Ste. 200"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Architecture and Art",
+            "patterns": [
+                "How do I get to the department of Architecture and Art",
+                "where is the building of Architecture and Art",
+                "have any idea where the location of Architecture and Art is?"
+            ],
+            "responses": [
+                "Here are the details of Architecture and Art as of today: \n\nDepartment Name : Architecture and Art         \nDepartment Phone Number: 936-261-9800        \nMail box: 2100        \nAddress/Office location: School of Architecture Ste. 100"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Army ROTC",
+            "patterns": [
+                "How do I get to the department of Army ROTC",
+                "where is the building of Army ROTC",
+                "have any idea where the location of Army ROTC is?"
+            ],
+            "responses": [
+                "Here are the details of Army ROTC as of today: \n\nDepartment Name : Army ROTC         \nDepartment Phone Number: 936-261-1600        \nMail box: 2235        \nAddress/Office location: P.O. Box 2757, Prairie View, TX 77446"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Arts & Sciences Dean\u2019s Office",
+            "patterns": [
+                "How do I get to the department of Arts & Sciences Dean\u2019s Office",
+                "where is the building of Arts & Sciences Dean\u2019s Office",
+                "have any idea where the location of Arts & Sciences Dean\u2019s Office is?"
+            ],
+            "responses": [
+                "Here are the details of Arts & Sciences Dean\u2019s Office as of today: \n\nDepartment Name : Arts & Sciences Dean\u2019s Office         \nDepartment Phone Number: 936-261-3180        \nMail box: 2201        \nAddress/Office location: New Science Bldg, 230"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Athletics",
+            "patterns": [
+                "How do I get to the department of Athletics",
+                "where is the building of Athletics",
+                "have any idea where the location of Athletics is?"
+            ],
+            "responses": [
+                "Here are the details of Athletics as of today: \n\nDepartment Name : Athletics         \nDepartment Phone Number: 936-261-9100        \nMail box: 1500        \nAddress/Office location: WM J Billy Nicks Rm 257"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Auxiliary Support Services",
+            "patterns": [
+                "How do I get to the department of Auxiliary Support Services",
+                "where is the building of Auxiliary Support Services",
+                "have any idea where the location of Auxiliary Support Services is?"
+            ],
+            "responses": [
+                "Here are the details of Auxiliary Support Services as of today: \n\nDepartment Name : Auxiliary Support Services         \nDepartment Phone Number: 936-261-1700        \nMail box: 1403        \nAddress/Office location: Memorial Student Center Bldg, Ste. 107"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Banner",
+            "patterns": [
+                "How do I get to the department of Banner",
+                "where is the building of Banner",
+                "have any idea where the location of Banner is?"
+            ],
+            "responses": [
+                "Here are the details of Banner as of today: \n\nDepartment Name : Banner         \nDepartment Phone Number: 936-261-9350        \nMail box: 1460        \nAddress/Office location: Harrington Science Ste. 311"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Biology",
+            "patterns": [
+                "How do I get to the department of Biology",
+                "where is the building of Biology",
+                "have any idea where the location of Biology is?"
+            ],
+            "responses": [
+                "Here are the details of Biology as of today: \n\nDepartment Name : Biology         \nDepartment Phone Number: 936-261-3175        \nMail box: 2210        \nAddress/Office location: New Science Bldg, 430"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Book Store-Nursing",
+            "patterns": [
+                "How do I get to the department of Book Store-Nursing",
+                "where is the building of Book Store-Nursing",
+                "have any idea where the location of Book Store-Nursing is?"
+            ],
+            "responses": [
+                "Here are the details of Book Store-Nursing as of today: \n\nDepartment Name : Book Store-Nursing         \nDepartment Phone Number: 713-790-7290        \nMail box:         \nAddress/Office location: 6436 Fannin St, Houston TX 77030 Ste. 122"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Office of Budget",
+            "patterns": [
+                "How do I get to the department of Office of Budget",
+                "where is the building of Office of Budget",
+                "have any idea where the location of Office of Budget is?"
+            ],
+            "responses": [
+                "Here are the details of Office of Budget as of today: \n\nDepartment Name : Office of Budget         \nDepartment Phone Number: 936-261-2200        \nMail box: 1311        \nAddress/Office location: W R Bank Ste. 115"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Building Maintenance",
+            "patterns": [
+                "How do I get to the department of Building Maintenance",
+                "where is the building of Building Maintenance",
+                "have any idea where the location of Building Maintenance is?"
+            ],
+            "responses": [
+                "Here are the details of Building Maintenance as of today: \n\nDepartment Name : Building Maintenance         \nDepartment Phone Number: 936-261-9703        \nMail box: 1420        \nAddress/Office location: Physical Plant Administration"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Business \u2013 Graduate Program",
+            "patterns": [
+                "How do I get to the department of Business \u2013 Graduate Program",
+                "where is the building of Business \u2013 Graduate Program",
+                "have any idea where the location of Business \u2013 Graduate Program is?"
+            ],
+            "responses": [
+                "Here are the details of Business \u2013 Graduate Program as of today: \n\nDepartment Name : Business \u2013 Graduate Program         \nDepartment Phone Number: 936-261-9215        \nMail box: 2320        \nAddress/Office location: Ag/Business Rm 363"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Business Affairs",
+            "patterns": [
+                "How do I get to the department of Business Affairs",
+                "where is the building of Business Affairs",
+                "have any idea where the location of Business Affairs is?"
+            ],
+            "responses": [
+                "Here are the details of Business Affairs as of today: \n\nDepartment Name : Business Affairs         \nDepartment Phone Number: 936-261-2150        \nMail box: 1300        \nAddress/Office location: A I Thomas Bldg, Ste. 100"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "College of Business",
+            "patterns": [
+                "How do I get to the department of College of Business",
+                "where is the building of College of Business",
+                "have any idea where the location of College of Business is?"
+            ],
+            "responses": [
+                "Here are the details of College of Business as of today: \n\nDepartment Name : College of Business         \nDepartment Phone Number: 936-261-9200        \nMail box: 2300        \nAddress/Office location: Ag/Business 3 Floor"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Campus Master Planning and Space Management",
+            "patterns": [
+                "How do I get to the department of Campus Master Planning and Space Management",
+                "where is the building of Campus Master Planning and Space Management",
+                "have any idea where the location of Campus Master Planning and Space Management is?"
+            ],
+            "responses": [
+                "Here are the details of Campus Master Planning and Space Management as of today: \n\nDepartment Name : Campus Master Planning and Space Management         \nDepartment Phone Number: 936-261-1750-1751        \nMail box: 1307        \nAddress/Office location: Harrington Science Bldg, Ste. 102C"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Career Services",
+            "patterns": [
+                "How do I get to the department of Career Services",
+                "where is the building of Career Services",
+                "have any idea where the location of Career Services is?"
+            ],
+            "responses": [
+                "Here are the details of Career Services as of today: \n\nDepartment Name : Career Services         \nDepartment Phone Number: 936-261-3570        \nMail box: 1028        \nAddress/Office location: Evans Hall Ste. 217"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CARR",
+            "patterns": [
+                "How do I get to the department of CARR",
+                "where is the building of CARR",
+                "have any idea where the location of CARR is?"
+            ],
+            "responses": [
+                "Here are the details of CARR as of today: \n\nDepartment Name : CARR         \nDepartment Phone Number: 936-261-9782        \nMail box: 1010        \nAddress/Office location: S R Collins Ste. 111"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Center for Energy &\u00a0Environmental Sustainability (CEES)",
+            "patterns": [
+                "How do I get to the department of Center for Energy &\u00a0Environmental Sustainability (CEES)",
+                "where is the building of Center for Energy &\u00a0Environmental Sustainability (CEES)",
+                "have any idea where the location of Center for Energy &\u00a0Environmental Sustainability (CEES) is?"
+            ],
+            "responses": [
+                "Here are the details of Center for Energy &\u00a0Environmental Sustainability (CEES) as of today: \n\nDepartment Name : Center for Energy &\u00a0Environmental Sustainability (CEES)         \nDepartment Phone Number: 936-261-1650        \nMail box: 2500        \nAddress/Office location: Wilson Engineering, Ste. 206L"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CECSTR/SECURE",
+            "patterns": [
+                "How do I get to the department of CECSTR/SECURE",
+                "where is the building of CECSTR/SECURE",
+                "have any idea where the location of CECSTR/SECURE is?"
+            ],
+            "responses": [
+                "Here are the details of CECSTR/SECURE as of today: \n\nDepartment Name : CECSTR/SECURE         \nDepartment Phone Number: 936-261-1668        \nMail box: 2521        \nAddress/Office location: Gilchrist Bldg, Ste. 122"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Center for Teaching Excellence",
+            "patterns": [
+                "How do I get to the department of Center for Teaching Excellence",
+                "where is the building of Center for Teaching Excellence",
+                "have any idea where the location of Center for Teaching Excellence is?"
+            ],
+            "responses": [
+                "Here are the details of Center for Teaching Excellence as of today: \n\nDepartment Name : Center for Teaching Excellence         \nDepartment Phone Number: 936-261-3640        \nMail box: 1046        \nAddress/Office location: Delco Bldg, Ste. 202"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Central Receiving Warehouse",
+            "patterns": [
+                "How do I get to the department of Central Receiving Warehouse",
+                "where is the building of Central Receiving Warehouse",
+                "have any idea where the location of Central Receiving Warehouse is?"
+            ],
+            "responses": [
+                "Here are the details of Central Receiving Warehouse as of today: \n\nDepartment Name : Central Receiving Warehouse         \nDepartment Phone Number: 936-261-1926\n936-261-9726        \nMail box: 1425        \nAddress/Office location: Central Receiving"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Central Utilities",
+            "patterns": [
+                "How do I get to the department of Central Utilities",
+                "where is the building of Central Utilities",
+                "have any idea where the location of Central Utilities is?"
+            ],
+            "responses": [
+                "Here are the details of Central Utilities as of today: \n\nDepartment Name : Central Utilities         \nDepartment Phone Number: 936-261-3880        \nMail box:         \nAddress/Office location: Fry Thomas Power Plant Bldg"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Chemical Engineering",
+            "patterns": [
+                "How do I get to the department of Chemical Engineering",
+                "where is the building of Chemical Engineering",
+                "have any idea where the location of Chemical Engineering is?"
+            ],
+            "responses": [
+                "Here are the details of Chemical Engineering as of today: \n\nDepartment Name : Chemical Engineering         \nDepartment Phone Number: 936-261-9400        \nMail box: 2505        \nAddress/Office location: C L Wilson Rm. 200"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Chemistry",
+            "patterns": [
+                "How do I get to the department of Chemistry",
+                "where is the building of Chemistry",
+                "have any idea where the location of Chemistry is?"
+            ],
+            "responses": [
+                "Here are the details of Chemistry as of today: \n\nDepartment Name : Chemistry         \nDepartment Phone Number: 936-261-3104        \nMail box: 2215        \nAddress/Office location: New Science Bldg, Ste. 230w"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CIITS/Distance Learning",
+            "patterns": [
+                "How do I get to the department of CIITS/Distance Learning",
+                "where is the building of CIITS/Distance Learning",
+                "have any idea where the location of CIITS/Distance Learning is?"
+            ],
+            "responses": [
+                "Here are the details of CIITS/Distance Learning as of today: \n\nDepartment Name : CIITS/Distance Learning         \nDepartment Phone Number: 936-261-3283        \nMail box: 1210        \nAddress/Office location: New Science Bldg, Ste. 123"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Civil & Environmental Engineering",
+            "patterns": [
+                "How do I get to the department of Civil & Environmental Engineering",
+                "where is the building of Civil & Environmental Engineering",
+                "have any idea where the location of Civil & Environmental Engineering is?"
+            ],
+            "responses": [
+                "Here are the details of Civil & Environmental Engineering as of today: \n\nDepartment Name : Civil & Environmental Engineering         \nDepartment Phone Number: 936-261-1665        \nMail box: 2510        \nAddress/Office location: C L Wilson Bldg, Ste. 110"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Clinical Teaching and Field Experience",
+            "patterns": [
+                "How do I get to the department of Clinical Teaching and Field Experience",
+                "where is the building of Clinical Teaching and Field Experience",
+                "have any idea where the location of Clinical Teaching and Field Experience is?"
+            ],
+            "responses": [
+                "Here are the details of Clinical Teaching and Field Experience as of today: \n\nDepartment Name : Clinical Teaching and Field Experience         \nDepartment Phone Number: 936-261-3407        \nMail box: 2430        \nAddress/Office location: Delco Bldg, Rm. 232"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Classic Dance",
+            "patterns": [
+                "How do I get to the department of Classic Dance",
+                "where is the building of Classic Dance",
+                "have any idea where the location of Classic Dance is?"
+            ],
+            "responses": [
+                "Here are the details of Classic Dance as of today: \n\nDepartment Name : Classic Dance         \nDepartment Phone Number: 936-261-3921        \nMail box: 2415        \nAddress/Office location: New Gym Ste. 131"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Contract Office",
+            "patterns": [
+                "How do I get to the department of Contract Office",
+                "where is the building of Contract Office",
+                "have any idea where the location of Contract Office is?"
+            ],
+            "responses": [
+                "Here are the details of Contract Office as of today: \n\nDepartment Name : Contract Office         \nDepartment Phone Number: 936-261-1902        \nMail box: 1311        \nAddress/Office location: W R Banks Bldg, Ste. 149"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Co-Op Extension Program",
+            "patterns": [
+                "How do I get to the department of Co-Op Extension Program",
+                "where is the building of Co-Op Extension Program",
+                "have any idea where the location of Co-Op Extension Program is?"
+            ],
+            "responses": [
+                "Here are the details of Co-Op Extension Program as of today: \n\nDepartment Name : Co-Op Extension Program         \nDepartment Phone Number: 936-261-5100        \nMail box: 2001        \nAddress/Office location: Carden -Waller Extension Bldg, 108"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Curriculum & Instructions",
+            "patterns": [
+                "How do I get to the department of Curriculum & Instructions",
+                "where is the building of Curriculum & Instructions",
+                "have any idea where the location of Curriculum & Instructions is?"
+            ],
+            "responses": [
+                "Here are the details of Curriculum & Instructions as of today: \n\nDepartment Name : Curriculum & Instructions         \nDepartment Phone Number: 936-261-3409        \nMail box: 2410        \nAddress/Office location: Delco Bldg, Ste. 316"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Custodial Services",
+            "patterns": [
+                "How do I get to the department of Custodial Services",
+                "where is the building of Custodial Services",
+                "have any idea where the location of Custodial Services is?"
+            ],
+            "responses": [
+                "Here are the details of Custodial Services as of today: \n\nDepartment Name : Custodial Services         \nDepartment Phone Number: 936-261-9703        \nMail box: 1420        \nAddress/Office location: Physical Plant Administration 117 A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Dance Department",
+            "patterns": [
+                "How do I get to the department of Dance Department",
+                "where is the building of Dance Department",
+                "have any idea where the location of Dance Department is?"
+            ],
+            "responses": [
+                "Here are the details of Dance Department as of today: \n\nDepartment Name : Dance Department         \nDepartment Phone Number: 936-261-3921        \nMail box: 2415        \nAddress/Office location: New Gym Ste. 131"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Disability Services",
+            "patterns": [
+                "How do I get to the department of Disability Services",
+                "where is the building of Disability Services",
+                "have any idea where the location of Disability Services is?"
+            ],
+            "responses": [
+                "Here are the details of Disability Services as of today: \n\nDepartment Name : Disability Services         \nDepartment Phone Number: 936-261-3581\n936-261-3585        \nMail box: 1037        \nAddress/Office location: Evans Hall Bldg, Ste.\u00a0 319"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": " Development/Alumni",
+            "patterns": [
+                "How do I get to the department of  Development/Alumni",
+                "where is the building of  Development/Alumni",
+                "have any idea where the location of  Development/Alumni is?"
+            ],
+            "responses": [
+                "Here are the details of  Development/Alumni as of today: \n\nDepartment Name :  Development/Alumni         \nDepartment Phone Number: 936-261-1550        \nMail box: 1200        \nAddress/Office location: Drew Complex, Rm. 207"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Education, Dean\u2019s Office",
+            "patterns": [
+                "How do I get to the department of Education, Dean\u2019s Office",
+                "where is the building of Education, Dean\u2019s Office",
+                "have any idea where the location of Education, Dean\u2019s Office is?"
+            ],
+            "responses": [
+                "Here are the details of Education, Dean\u2019s Office as of today: \n\nDepartment Name : Education, Dean\u2019s Office         \nDepartment Phone Number: 936-261-3600        \nMail box: 2400        \nAddress/Office location: Delco Bldg, Ste. 302"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Electrical Engineering",
+            "patterns": [
+                "How do I get to the department of Electrical Engineering",
+                "where is the building of Electrical Engineering",
+                "have any idea where the location of Electrical Engineering is?"
+            ],
+            "responses": [
+                "Here are the details of Electrical Engineering as of today: \n\nDepartment Name : Electrical Engineering         \nDepartment Phone Number: 936-261-9980        \nMail box: 2520        \nAddress/Office location: Roy G. Perry Engineering Bldg, Ste. 315"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Engineering- Dean Office",
+            "patterns": [
+                "How do I get to the department of Engineering- Dean Office",
+                "where is the building of Engineering- Dean Office",
+                "have any idea where the location of Engineering- Dean Office is?"
+            ],
+            "responses": [
+                "Here are the details of Engineering- Dean Office as of today: \n\nDepartment Name : Engineering- Dean Office         \nDepartment Phone Number: 936-261-9900        \nMail box: 2500        \nAddress/Office location: S. R.\u00a0 Collins, Ste. 300"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Engineering Tech",
+            "patterns": [
+                "How do I get to the department of Engineering Tech",
+                "where is the building of Engineering Tech",
+                "have any idea where the location of Engineering Tech is?"
+            ],
+            "responses": [
+                "Here are the details of Engineering Tech as of today: \n\nDepartment Name : Engineering Tech         \nDepartment Phone Number: 936-261-9840        \nMail box: 2530        \nAddress/Office location: S R Collins Rm.\u00a0302"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Enrollment Management",
+            "patterns": [
+                "How do I get to the department of Enrollment Management",
+                "where is the building of Enrollment Management",
+                "have any idea where the location of Enrollment Management is?"
+            ],
+            "responses": [
+                "Here are the details of Enrollment Management as of today: \n\nDepartment Name : Enrollment Management         \nDepartment Phone Number: 936-261-1204        \nMail box: 1025        \nAddress/Office location: Memorial Student Center, 3rd Floor"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Equal Opportunity & Affirmative Act",
+            "patterns": [
+                "How do I get to the department of Equal Opportunity & Affirmative Act",
+                "where is the building of Equal Opportunity & Affirmative Act",
+                "have any idea where the location of Equal Opportunity & Affirmative Act is?"
+            ],
+            "responses": [
+                "Here are the details of Equal Opportunity & Affirmative Act as of today: \n\nDepartment Name : Equal Opportunity & Affirmative Act         \nDepartment Phone Number: 936-261-2123        \nMail box: 1107        \nAddress/Office location: A I Thomas Bldg, Ste. 013"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Financial Aid and Scholarships",
+            "patterns": [
+                "How do I get to the department of Financial Aid and Scholarships",
+                "where is the building of Financial Aid and Scholarships",
+                "have any idea where the location of Financial Aid and Scholarships is?"
+            ],
+            "responses": [
+                "Here are the details of Financial Aid and Scholarships as of today: \n\nDepartment Name : Financial Aid and Scholarships         \nDepartment Phone Number: 936-261-1000        \nMail box: 1005        \nAddress/Office location: Memorial Student Center, 3rd Floor"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Financial Management Services",
+            "patterns": [
+                "How do I get to the department of Financial Management Services",
+                "where is the building of Financial Management Services",
+                "have any idea where the location of Financial Management Services is?"
+            ],
+            "responses": [
+                "Here are the details of Financial Management Services as of today: \n\nDepartment Name : Financial Management Services         \nDepartment Phone Number: 936-261-1900        \nMail box: 1311        \nAddress/Office location: W.R. Banks, Ste. 115"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Geography",
+            "patterns": [
+                "How do I get to the department of Geography",
+                "where is the building of Geography",
+                "have any idea where the location of Geography is?"
+            ],
+            "responses": [
+                "Here are the details of Geography as of today: \n\nDepartment Name : Geography         \nDepartment Phone Number: 936-261-3200        \nMail box: 2203        \nAddress/Office location: GR Woolfolk Ste. 102"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Graduate\u00a0Studies",
+            "patterns": [
+                "How do I get to the department of Graduate\u00a0Studies",
+                "where is the building of Graduate\u00a0Studies",
+                "have any idea where the location of Graduate\u00a0Studies is?"
+            ],
+            "responses": [
+                "Here are the details of Graduate\u00a0Studies as of today: \n\nDepartment Name : Graduate\u00a0Studies         \nDepartment Phone Number: 936-261-3518        \nMail box: 2800        \nAddress/Office location: AI Thomas Ste. 003"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Grounds Maintenance",
+            "patterns": [
+                "How do I get to the department of Grounds Maintenance",
+                "where is the building of Grounds Maintenance",
+                "have any idea where the location of Grounds Maintenance is?"
+            ],
+            "responses": [
+                "Here are the details of Grounds Maintenance as of today: \n\nDepartment Name : Grounds Maintenance         \nDepartment Phone Number: 936-261-9703        \nMail box: 1420        \nAddress/Office location: Physical Plant Administration 100"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Health & Kinesiology",
+            "patterns": [
+                "How do I get to the department of Health & Kinesiology",
+                "where is the building of Health & Kinesiology",
+                "have any idea where the location of Health & Kinesiology is?"
+            ],
+            "responses": [
+                "Here are the details of Health & Kinesiology as of today: \n\nDepartment Name : Health & Kinesiology         \nDepartment Phone Number: 936-261-3900        \nMail box: 2415        \nAddress/Office location: Leroy Moore Gym, Ste. 104"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "History",
+            "patterns": [
+                "How do I get to the department of History",
+                "where is the building of History",
+                "have any idea where the location of History is?"
+            ],
+            "responses": [
+                "Here are the details of History as of today: \n\nDepartment Name : History         \nDepartment Phone Number: 936-261-3200        \nMail box: 2203        \nAddress/Office location: GR Woolfolk Ste. 102"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Human Resources",
+            "patterns": [
+                "How do I get to the department of Human Resources",
+                "where is the building of Human Resources",
+                "have any idea where the location of Human Resources is?"
+            ],
+            "responses": [
+                "Here are the details of Human Resources as of today: \n\nDepartment Name : Human Resources         \nDepartment Phone Number: 936-261-1730        \nMail box: 1337        \nAddress/Office location: Harrington Science Bldg, Ste. 109"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Human Science",
+            "patterns": [
+                "How do I get to the department of Human Science",
+                "where is the building of Human Science",
+                "have any idea where the location of Human Science is?"
+            ],
+            "responses": [
+                "Here are the details of Human Science as of today: \n\nDepartment Name : Human Science         \nDepartment Phone Number: 936-261-2505        \nMail box: 2004        \nAddress/Office location: Ag/Business, Ste. 300"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Information Technology Services",
+            "patterns": [
+                "How do I get to the department of Information Technology Services",
+                "where is the building of Information Technology Services",
+                "have any idea where the location of Information Technology Services is?"
+            ],
+            "responses": [
+                "Here are the details of Information Technology Services as of today: \n\nDepartment Name : Information Technology Services         \nDepartment Phone Number: 936-261-9300        \nMail box: 1339        \nAddress/Office location: S R Collins Rm.\u00a0 126"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Institutional Research",
+            "patterns": [
+                "How do I get to the department of Institutional Research",
+                "where is the building of Institutional Research",
+                "have any idea where the location of Institutional Research is?"
+            ],
+            "responses": [
+                "Here are the details of Institutional Research as of today: \n\nDepartment Name : Institutional Research         \nDepartment Phone Number: 936-261-2188        \nMail box: 1341        \nAddress/Office location: W. R. Banks, Ste. 302"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Jazzman\u2019s Cafe (Sodexo Campus Services)",
+            "patterns": [
+                "How do I get to the department of Jazzman\u2019s Cafe (Sodexo Campus Services)",
+                "where is the building of Jazzman\u2019s Cafe (Sodexo Campus Services)",
+                "have any idea where the location of Jazzman\u2019s Cafe (Sodexo Campus Services) is?"
+            ],
+            "responses": [
+                "Here are the details of Jazzman\u2019s Cafe (Sodexo Campus Services) as of today: \n\nDepartment Name : Jazzman\u2019s Cafe (Sodexo Campus Services)         \nDepartment Phone Number: 936-261-1783        \nMail box: 1407        \nAddress/Office location: J. B. Coleman Library"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Juvenile Justice",
+            "patterns": [
+                "How do I get to the department of Juvenile Justice",
+                "where is the building of Juvenile Justice",
+                "have any idea where the location of Juvenile Justice is?"
+            ],
+            "responses": [
+                "Here are the details of Juvenile Justice as of today: \n\nDepartment Name : Juvenile Justice         \nDepartment Phone Number: 936-261-5200        \nMail box: 2600        \nAddress/Office location: Don Clark, Ste. 146"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "KPVU Radio Station",
+            "patterns": [
+                "How do I get to the department of KPVU Radio Station",
+                "where is the building of KPVU Radio Station",
+                "have any idea where the location of KPVU Radio Station is?"
+            ],
+            "responses": [
+                "Here are the details of KPVU Radio Station as of today: \n\nDepartment Name : KPVU Radio Station         \nDepartment Phone Number: 936-261-3750        \nMail box: 1415        \nAddress/Office location: Hilliard Hall Ste. 130"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "KPVU Request Line",
+            "patterns": [
+                "How do I get to the department of KPVU Request Line",
+                "where is the building of KPVU Request Line",
+                "have any idea where the location of KPVU Request Line is?"
+            ],
+            "responses": [
+                "Here are the details of KPVU Request Line as of today: \n\nDepartment Name : KPVU Request Line         \nDepartment Phone Number: 936-261-5788        \nMail box: 1415        \nAddress/Office location: Hilliard Hall Ste. 130"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Languages and Communications",
+            "patterns": [
+                "How do I get to the department of Languages and Communications",
+                "where is the building of Languages and Communications",
+                "have any idea where the location of Languages and Communications is?"
+            ],
+            "responses": [
+                "Here are the details of Languages and Communications as of today: \n\nDepartment Name : Languages and Communications         \nDepartment Phone Number: 936-261-3700        \nMail box: 2220        \nAddress/Office location: Hilliard Hall Ste.\u00a0106"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Library",
+            "patterns": [
+                "How do I get to the department of Library",
+                "where is the building of Library",
+                "have any idea where the location of Library is?"
+            ],
+            "responses": [
+                "Here are the details of Library as of today: \n\nDepartment Name : Library         \nDepartment Phone Number: 936-261-1500        \nMail box: 1040        \nAddress/Office location: J. B. Coleman Library"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Maintenance Department",
+            "patterns": [
+                "How do I get to the department of Maintenance Department",
+                "where is the building of Maintenance Department",
+                "have any idea where the location of Maintenance Department is?"
+            ],
+            "responses": [
+                "Here are the details of Maintenance Department as of today: \n\nDepartment Name : Maintenance Department         \nDepartment Phone Number: 936-261-9703        \nMail box: 1420        \nAddress/Office location: Physical Plant Administration 100"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Management & Marketing",
+            "patterns": [
+                "How do I get to the department of Management & Marketing",
+                "where is the building of Management & Marketing",
+                "have any idea where the location of Management & Marketing is?"
+            ],
+            "responses": [
+                "Here are the details of Management & Marketing as of today: \n\nDepartment Name : Management & Marketing         \nDepartment Phone Number: 936-261-9280        \nMail box: 2315        \nAddress/Office location: Ag/Business, Rm. 347"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Mathematics",
+            "patterns": [
+                "How do I get to the department of Mathematics",
+                "where is the building of Mathematics",
+                "have any idea where the location of Mathematics is?"
+            ],
+            "responses": [
+                "Here are the details of Mathematics as of today: \n\nDepartment Name : Mathematics         \nDepartment Phone Number: 936-261-1970        \nMail box: 2225        \nAddress/Office location: W R Banks Ste. 310"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "MBA \u2013 Master Business Administrations",
+            "patterns": [
+                "How do I get to the department of MBA \u2013 Master Business Administrations",
+                "where is the building of MBA \u2013 Master Business Administrations",
+                "have any idea where the location of MBA \u2013 Master Business Administrations is?"
+            ],
+            "responses": [
+                "Here are the details of MBA \u2013 Master Business Administrations as of today: \n\nDepartment Name : MBA \u2013 Master Business Administrations         \nDepartment Phone Number: 936-261-9215        \nMail box: 2315        \nAddress/Office location: Ag/Business, Rm. 363"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Mechanical Engineering",
+            "patterns": [
+                "How do I get to the department of Mechanical Engineering",
+                "where is the building of Mechanical Engineering",
+                "have any idea where the location of Mechanical Engineering is?"
+            ],
+            "responses": [
+                "Here are the details of Mechanical Engineering as of today: \n\nDepartment Name : Mechanical Engineering         \nDepartment Phone Number: 936-261-9953        \nMail box: 2525        \nAddress/Office location: C L Wilson Rm. 102"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Music & Drama",
+            "patterns": [
+                "How do I get to the department of Music & Drama",
+                "where is the building of Music & Drama",
+                "have any idea where the location of Music & Drama is?"
+            ],
+            "responses": [
+                "Here are the details of Music & Drama as of today: \n\nDepartment Name : Music & Drama         \nDepartment Phone Number: 936-261-3335        \nMail box: 2205        \nAddress/Office location: Hobart Taylor Ste. 2G253"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "National Foundation",
+            "patterns": [
+                "How do I get to the department of National Foundation",
+                "where is the building of National Foundation",
+                "have any idea where the location of National Foundation is?"
+            ],
+            "responses": [
+                "Here are the details of National Foundation as of today: \n\nDepartment Name : National Foundation         \nDepartment Phone Number: 936-261-9783        \nMail box: 1010        \nAddress/Office location: S R Collins Ste. 111"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Navy ROTC",
+            "patterns": [
+                "How do I get to the department of Navy ROTC",
+                "where is the building of Navy ROTC",
+                "have any idea where the location of Navy ROTC is?"
+            ],
+            "responses": [
+                "Here are the details of Navy ROTC as of today: \n\nDepartment Name : Navy ROTC         \nDepartment Phone Number: 936-261-1625        \nMail box: 2240        \nAddress/Office location: 676 Anne Preston Drive"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Nursing- Houston",
+            "patterns": [
+                "How do I get to the department of Nursing- Houston",
+                "where is the building of Nursing- Houston",
+                "have any idea where the location of Nursing- Houston is?"
+            ],
+            "responses": [
+                "Here are the details of Nursing- Houston as of today: \n\nDepartment Name : Nursing- Houston         \nDepartment Phone Number: 713-797-7000        \nMail box: 2700        \nAddress/Office location: 6436 Fannin St Ste. 1224 Houston TX 77030"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Nursing- (Pre-Nursing)",
+            "patterns": [
+                "How do I get to the department of Nursing- (Pre-Nursing)",
+                "where is the building of Nursing- (Pre-Nursing)",
+                "have any idea where the location of Nursing- (Pre-Nursing) is?"
+            ],
+            "responses": [
+                "Here are the details of Nursing- (Pre-Nursing) as of today: \n\nDepartment Name : Nursing- (Pre-Nursing)         \nDepartment Phone Number: 936-261-2929        \nMail box: 2725        \nAddress/Office location: Anderson Hall Rm.\u00a0 213"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Panther Mart",
+            "patterns": [
+                "How do I get to the department of Panther Mart",
+                "where is the building of Panther Mart",
+                "have any idea where the location of Panther Mart is?"
+            ],
+            "responses": [
+                "Here are the details of Panther Mart as of today: \n\nDepartment Name : Panther Mart         \nDepartment Phone Number: 936-261-1771        \nMail box: 1020        \nAddress/Office location: Memorial Student Center, Rm. 117"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Parking Management Office",
+            "patterns": [
+                "How do I get to the department of Parking Management Office",
+                "where is the building of Parking Management Office",
+                "have any idea where the location of Parking Management Office is?"
+            ],
+            "responses": [
+                "Here are the details of Parking Management Office as of today: \n\nDepartment Name : Parking Management Office         \nDepartment Phone Number: 936-261-1701        \nMail box: 1405        \nAddress/Office location: Harrington Science Bldg, Ste. 117"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Payroll Office",
+            "patterns": [
+                "How do I get to the department of Payroll Office",
+                "where is the building of Payroll Office",
+                "have any idea where the location of Payroll Office is?"
+            ],
+            "responses": [
+                "Here are the details of Payroll Office as of today: \n\nDepartment Name : Payroll Office         \nDepartment Phone Number: 936-261-1904        \nMail box: 1311        \nAddress/Office location: W R Bank Ste. 129"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Philosophy",
+            "patterns": [
+                "How do I get to the department of Philosophy",
+                "where is the building of Philosophy",
+                "have any idea where the location of Philosophy is?"
+            ],
+            "responses": [
+                "Here are the details of Philosophy as of today: \n\nDepartment Name : Philosophy         \nDepartment Phone Number: 936-261-3200        \nMail box: 2203        \nAddress/Office location: GR Woolfolk Ste. 102"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Physical Plant",
+            "patterns": [
+                "How do I get to the department of Physical Plant",
+                "where is the building of Physical Plant",
+                "have any idea where the location of Physical Plant is?"
+            ],
+            "responses": [
+                "Here are the details of Physical Plant as of today: \n\nDepartment Name : Physical Plant         \nDepartment Phone Number: 936-261-9703        \nMail box: 1420        \nAddress/Office location: Physical Plant Administration 100"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Physics",
+            "patterns": [
+                "How do I get to the department of Physics",
+                "where is the building of Physics",
+                "have any idea where the location of Physics is?"
+            ],
+            "responses": [
+                "Here are the details of Physics as of today: \n\nDepartment Name : Physics         \nDepartment Phone Number: 936-261-3140        \nMail box: 2230        \nAddress/Office location: E E Obanion\u00a0Science Bldg, Rm.\u00a0 330"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Political Science",
+            "patterns": [
+                "How do I get to the department of Political Science",
+                "where is the building of Political Science",
+                "have any idea where the location of Political Science is?"
+            ],
+            "responses": [
+                "Here are the details of Political Science as of today: \n\nDepartment Name : Political Science         \nDepartment Phone Number: 936-261-3200        \nMail box: 2203        \nAddress/Office location: GR Woolfolk Ste. 102"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "President Office",
+            "patterns": [
+                "How do I get to the department of President Office",
+                "where is the building of President Office",
+                "have any idea where the location of President Office is?"
+            ],
+            "responses": [
+                "Here are the details of President Office as of today: \n\nDepartment Name : President Office         \nDepartment Phone Number: 936-261-2111        \nMail box: 1001        \nAddress/Office location: A I\u00a0 Thomas Bldg, Ste. 202"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Procurement Services",
+            "patterns": [
+                "How do I get to the department of Procurement Services",
+                "where is the building of Procurement Services",
+                "have any idea where the location of Procurement Services is?"
+            ],
+            "responses": [
+                "Here are the details of Procurement Services as of today: \n\nDepartment Name : Procurement Services         \nDepartment Phone Number: 936-261-1902        \nMail box: 1311        \nAddress/Office location: W R Banks Rm. 129"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Psychology Department",
+            "patterns": [
+                "How do I get to the department of Psychology Department",
+                "where is the building of Psychology Department",
+                "have any idea where the location of Psychology Department is?"
+            ],
+            "responses": [
+                "Here are the details of Psychology Department as of today: \n\nDepartment Name : Psychology Department         \nDepartment Phone Number: 936-261-5263        \nMail box: 2600        \nAddress/Office location: Don Clark,"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Registrar",
+            "patterns": [
+                "How do I get to the department of Registrar",
+                "where is the building of Registrar",
+                "have any idea where the location of Registrar is?"
+            ],
+            "responses": [
+                "Here are the details of Registrar as of today: \n\nDepartment Name : Registrar         \nDepartment Phone Number: 936-261-1043        \nMail box: 1002        \nAddress/Office location: Memorial Student Center, 3rd Floor"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Residence Life",
+            "patterns": [
+                "How do I get to the department of Residence Life",
+                "where is the building of Residence Life",
+                "have any idea where the location of Residence Life is?"
+            ],
+            "responses": [
+                "Here are the details of Residence Life as of today: \n\nDepartment Name : Residence Life         \nDepartment Phone Number: 936-261-2651        \nMail box: 1440        \nAddress/Office location: Harrington Science, Ste. 116"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Risk Management & Safety",
+            "patterns": [
+                "How do I get to the department of Risk Management & Safety",
+                "where is the building of Risk Management & Safety",
+                "have any idea where the location of Risk Management & Safety is?"
+            ],
+            "responses": [
+                "Here are the details of Risk Management & Safety as of today: \n\nDepartment Name : Risk Management & Safety         \nDepartment Phone Number: 936-261-1747        \nMail box: 1310        \nAddress/Office location: Harrington Science\u00a0 Ste. 104"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Scholarship Department",
+            "patterns": [
+                "How do I get to the department of Scholarship Department",
+                "where is the building of Scholarship Department",
+                "have any idea where the location of Scholarship Department is?"
+            ],
+            "responses": [
+                "Here are the details of Scholarship Department as of today: \n\nDepartment Name : Scholarship Department         \nDepartment Phone Number: 936-261-1000        \nMail box: 1005        \nAddress/Office location: Memorial Student Center, 3rd. Floor"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Social Work",
+            "patterns": [
+                "How do I get to the department of Social Work",
+                "where is the building of Social Work",
+                "have any idea where the location of Social Work is?"
+            ],
+            "responses": [
+                "Here are the details of Social Work as of today: \n\nDepartment Name : Social Work         \nDepartment Phone Number: 936-261-1670        \nMail box: 2203        \nAddress/Office location: W R Banks Ste. 231"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sociology",
+            "patterns": [
+                "How do I get to the department of Sociology",
+                "where is the building of Sociology",
+                "have any idea where the location of Sociology is?"
+            ],
+            "responses": [
+                "Here are the details of Sociology as of today: \n\nDepartment Name : Sociology         \nDepartment Phone Number: 936-261-3200        \nMail box: 2203        \nAddress/Office location: W R Banks Ste. 231"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sodexo Campus Services",
+            "patterns": [
+                "How do I get to the department of Sodexo Campus Services",
+                "where is the building of Sodexo Campus Services",
+                "have any idea where the location of Sodexo Campus Services is?"
+            ],
+            "responses": [
+                "Here are the details of Sodexo Campus Services as of today: \n\nDepartment Name : Sodexo Campus Services         \nDepartment Phone Number: 936-261-1778        \nMail box: 1407        \nAddress/Office location: Memorial Student Center, Rm.\u00a0 117"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sodexo Services",
+            "patterns": [
+                "How do I get to the department of Sodexo Services",
+                "where is the building of Sodexo Services",
+                "have any idea where the location of Sodexo Services is?"
+            ],
+            "responses": [
+                "Here are the details of Sodexo Services as of today: \n\nDepartment Name : Sodexo Services         \nDepartment Phone Number: 936-261-1770        \nMail box: 1407        \nAddress/Office location: Memorial Student Center, Rm.\u00a0 106"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Solar Observatory",
+            "patterns": [
+                "How do I get to the department of Solar Observatory",
+                "where is the building of Solar Observatory",
+                "have any idea where the location of Solar Observatory is?"
+            ],
+            "responses": [
+                "Here are the details of Solar Observatory as of today: \n\nDepartment Name : Solar Observatory         \nDepartment Phone Number: 936-261-2680        \nMail box: 2250        \nAddress/Office location: Harrington Science Bldg, Rm. 211"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Strategic Partnerships and Outreach",
+            "patterns": [
+                "How do I get to the department of Strategic Partnerships and Outreach",
+                "where is the building of Strategic Partnerships and Outreach",
+                "have any idea where the location of Strategic Partnerships and Outreach is?"
+            ],
+            "responses": [
+                "Here are the details of Strategic Partnerships and Outreach as of today: \n\nDepartment Name : Strategic Partnerships and Outreach         \nDepartment Phone Number: 936-261-1081        \nMail box: 1025        \nAddress/Office location: Evans Hall, 2nd Floor"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Student Engagement",
+            "patterns": [
+                "How do I get to the department of Student Engagement",
+                "where is the building of Student Engagement",
+                "have any idea where the location of Student Engagement is?"
+            ],
+            "responses": [
+                "Here are the details of Student Engagement as of today: \n\nDepartment Name : Student Engagement         \nDepartment Phone Number: 936-261-1340        \nMail box: 1020        \nAddress/Office location: Memorial Student Center,\u00a0Rm.\u00a0 221"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Student Affairs/Dean of Student",
+            "patterns": [
+                "How do I get to the department of Student Affairs/Dean of Student",
+                "where is the building of Student Affairs/Dean of Student",
+                "have any idea where the location of Student Affairs/Dean of Student is?"
+            ],
+            "responses": [
+                "Here are the details of Student Affairs/Dean of Student as of today: \n\nDepartment Name : Student Affairs/Dean of Student         \nDepartment Phone Number: 936-261-3550        \nMail box: 1026        \nAddress/Office location: Evans Hall Rm.\u00a0 305"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Division for Student Affairs",
+            "patterns": [
+                "How do I get to the department of Division for Student Affairs",
+                "where is the building of Division for Student Affairs",
+                "have any idea where the location of Division for Student Affairs is?"
+            ],
+            "responses": [
+                "Here are the details of Division for Student Affairs as of today: \n\nDepartment Name : Division for Student Affairs         \nDepartment Phone Number: 936-261-2130        \nMail box: 1100        \nAddress/Office location: A I\u00a0 Thomas Bldg, Ste.\u00a0 102"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Student Center Operations",
+            "patterns": [
+                "How do I get to the department of Student Center Operations",
+                "where is the building of Student Center Operations",
+                "have any idea where the location of Student Center Operations is?"
+            ],
+            "responses": [
+                "Here are the details of Student Center Operations as of today: \n\nDepartment Name : Student Center Operations         \nDepartment Phone Number: 936-261-1320        \nMail box: 1450        \nAddress/Office location: Memorial Student Center Rm.\u00a0 106"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Student Employment",
+            "patterns": [
+                "How do I get to the department of Student Employment",
+                "where is the building of Student Employment",
+                "have any idea where the location of Student Employment is?"
+            ],
+            "responses": [
+                "Here are the details of Student Employment as of today: \n\nDepartment Name : Student Employment         \nDepartment Phone Number: 936-261-1793        \nMail box: 1338        \nAddress/Office location: Harrington Science Bldg, Rm.\u00a0 111"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Student Government (SGA)",
+            "patterns": [
+                "How do I get to the department of Student Government (SGA)",
+                "where is the building of Student Government (SGA)",
+                "have any idea where the location of Student Government (SGA) is?"
+            ],
+            "responses": [
+                "Here are the details of Student Government (SGA) as of today: \n\nDepartment Name : Student Government (SGA)         \nDepartment Phone Number: 936-261-1354        \nMail box: 1020        \nAddress/Office location: Memorial Student Center Rm.\u00a0 223"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Student Publications",
+            "patterns": [
+                "How do I get to the department of Student Publications",
+                "where is the building of Student Publications",
+                "have any idea where the location of Student Publications is?"
+            ],
+            "responses": [
+                "Here are the details of Student Publications as of today: \n\nDepartment Name : Student Publications         \nDepartment Phone Number:  936-261-1353\n936-261-1358\n936-261-1361        \nMail box:  1020        \nAddress/Office location: Memorial Student Center Rm.\u00a0 216"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Student Services and Certification",
+            "patterns": [
+                "How do I get to the department of Student Services and Certification",
+                "where is the building of Student Services and Certification",
+                "have any idea where the location of Student Services and Certification is?"
+            ],
+            "responses": [
+                "Here are the details of Student Services and Certification as of today: \n\nDepartment Name : Student Services and Certification         \nDepartment Phone Number:  936-261-3605        \nMail box:  2425        \nAddress/Office location: Delco Bldg, Rm.\u00a0302"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Telephone Office",
+            "patterns": [
+                "How do I get to the department of Telephone Office",
+                "where is the building of Telephone Office",
+                "have any idea where the location of Telephone Office is?"
+            ],
+            "responses": [
+                "Here are the details of Telephone Office as of today: \n\nDepartment Name : Telephone Office         \nDepartment Phone Number: 936-261-2885        \nMail box: 1460        \nAddress/Office location: Harrington Science, Ste. 311"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "TSI Assessment Office",
+            "patterns": [
+                "How do I get to the department of TSI Assessment Office",
+                "where is the building of TSI Assessment Office",
+                "have any idea where the location of TSI Assessment Office is?"
+            ],
+            "responses": [
+                "Here are the details of TSI Assessment Office as of today: \n\nDepartment Name : TSI Assessment Office         \nDepartment Phone Number: 936-261-3610        \nMail box: 3030        \nAddress/Office location: University College Advisement"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Thermal Science Research Center",
+            "patterns": [
+                "How do I get to the department of Thermal Science Research Center",
+                "where is the building of Thermal Science Research Center",
+                "have any idea where the location of Thermal Science Research Center is?"
+            ],
+            "responses": [
+                "Here are the details of Thermal Science Research Center as of today: \n\nDepartment Name : Thermal Science Research Center         \nDepartment Phone Number: 936-261-9970        \nMail box: 2525        \nAddress/Office location: Ag Research Bldg, Ste. 169"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Title III",
+            "patterns": [
+                "How do I get to the department of Title III",
+                "where is the building of Title III",
+                "have any idea where the location of Title III is?"
+            ],
+            "responses": [
+                "Here are the details of Title III as of today: \n\nDepartment Name : Title III         \nDepartment Phone Number: 936-261-3440        \nMail box: 1208        \nAddress/Office location: Delco Bldg, Rm. 107"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Transportation Services",
+            "patterns": [
+                "How do I get to the department of Transportation Services",
+                "where is the building of Transportation Services",
+                "have any idea where the location of Transportation Services is?"
+            ],
+            "responses": [
+                "Here are the details of Transportation Services as of today: \n\nDepartment Name : Transportation Services         \nDepartment Phone Number: 936-261-1140        \nMail box: 1423        \nAddress/Office location: Transit Center"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Travel Office",
+            "patterns": [
+                "How do I get to the department of Travel Office",
+                "where is the building of Travel Office",
+                "have any idea where the location of Travel Office is?"
+            ],
+            "responses": [
+                "Here are the details of Travel Office as of today: \n\nDepartment Name : Travel Office         \nDepartment Phone Number: 936-261-1902        \nMail box: 1311        \nAddress/Office location: W.R. Banks, Ste. 149"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Treasury Services/Cashier Office",
+            "patterns": [
+                "How do I get to the department of Treasury Services/Cashier Office",
+                "where is the building of Treasury Services/Cashier Office",
+                "have any idea where the location of Treasury Services/Cashier Office is?"
+            ],
+            "responses": [
+                "Here are the details of Treasury Services/Cashier Office as of today: \n\nDepartment Name : Treasury Services/Cashier Office         \nDepartment Phone Number: 936-261-1000        \nMail box: 1329        \nAddress/Office location: W R Banks\u00a0 Bldg, Rm.\u00a0140"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Undergraduate Admissions",
+            "patterns": [
+                "How do I get to the department of Undergraduate Admissions",
+                "where is the building of Undergraduate Admissions",
+                "have any idea where the location of Undergraduate Admissions is?"
+            ],
+            "responses": [
+                "Here are the details of Undergraduate Admissions as of today: \n\nDepartment Name : Undergraduate Admissions         \nDepartment Phone Number: (936) 261-1069        \nMail box: 1009        \nAddress/Office location: Anderson Hall, 1st Floor"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Undergraduate Medical Academy",
+            "patterns": [
+                "How do I get to the department of Undergraduate Medical Academy",
+                "where is the building of Undergraduate Medical Academy",
+                "have any idea where the location of Undergraduate Medical Academy is?"
+            ],
+            "responses": [
+                "Here are the details of Undergraduate Medical Academy as of today: \n\nDepartment Name : Undergraduate Medical Academy         \nDepartment Phone Number: 936-261-3085        \nMail box: 2900        \nAddress/Office location: E E Obanion Bldg, Rm.\u00a0129"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "University College \u2013 Advisement",
+            "patterns": [
+                "How do I get to the department of University College \u2013 Advisement",
+                "where is the building of University College \u2013 Advisement",
+                "have any idea where the location of University College \u2013 Advisement is?"
+            ],
+            "responses": [
+                "Here are the details of University College \u2013 Advisement as of today: \n\nDepartment Name : University College \u2013 Advisement         \nDepartment Phone Number: 936-261-5900        \nMail box: 3000        \nAddress/Office location: University College Advisement"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "University Compliance",
+            "patterns": [
+                "How do I get to the department of University Compliance",
+                "where is the building of University Compliance",
+                "have any idea where the location of University Compliance is?"
+            ],
+            "responses": [
+                "Here are the details of University Compliance as of today: \n\nDepartment Name : University Compliance         \nDepartment Phone Number: 936-261-2144        \nMail box: 3401        \nAddress/Office location: W. R. Banks Ste. 224"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "University Police Department",
+            "patterns": [
+                "How do I get to the department of University Police Department",
+                "where is the building of University Police Department",
+                "have any idea where the location of University Police Department is?"
+            ],
+            "responses": [
+                "Here are the details of University Police Department as of today: \n\nDepartment Name : University Police Department         \nDepartment Phone Number: 936-261-1375        \nMail box: 1430        \nAddress/Office location: Central Receiving Ste. 102"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "University Testing Services",
+            "patterns": [
+                "How do I get to the department of University Testing Services",
+                "where is the building of University Testing Services",
+                "have any idea where the location of University Testing Services is?"
+            ],
+            "responses": [
+                "Here are the details of University Testing Services as of today: \n\nDepartment Name : University Testing Services         \nDepartment Phone Number: 936-261-3627        \nMail box: 3002        \nAddress/Office location: Delco Bldg, Rm.\u00a0 141"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Utilities",
+            "patterns": [
+                "How do I get to the department of Utilities",
+                "where is the building of Utilities",
+                "have any idea where the location of Utilities is?"
+            ],
+            "responses": [
+                "Here are the details of Utilities as of today: \n\nDepartment Name : Utilities         \nDepartment Phone Number: 936-261-3880        \nMail box: 1425        \nAddress/Office location: Fry Thomas Power Plant"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Veteran Services",
+            "patterns": [
+                "How do I get to the department of Veteran Services",
+                "where is the building of Veteran Services",
+                "have any idea where the location of Veteran Services is?"
+            ],
+            "responses": [
+                "Here are the details of Veteran Services as of today: \n\nDepartment Name : Veteran Services         \nDepartment Phone Number: 936-261-3563        \nMail box: 1026        \nAddress/Office location: May Hall Rm. 118"
+            ],
+            "context_set": ""
         }
     ]
 }

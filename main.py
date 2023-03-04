@@ -241,6 +241,7 @@ def send_message(event=None):
     chat_window.config(state=tk.NORMAL)
     chat_window.insert(tk.END, "You: " + user_message + "\n\n")
     tag = correctSentence(user_message)
+    responses = ""
     for tg in intents['intents']:
             if tg['tag']==tag:
                 responses = tg['responses']
@@ -286,11 +287,13 @@ window.title("Chatbot")
 
 # create chat window
 chat_window = tk.Text(window, height=20, width=50)
+chat_window.pack(fill=tk.BOTH, expand=True)
 chat_window.config(state=tk.DISABLED)
 chat_window.pack()
 
 chat_window.config(state=tk.NORMAL)
 chat_window.insert(tk.END, "PantherBot: Hi, I'm PantherBot, your assistance. How can I help you today?" + "\n\n")
+chat_window.config(state=tk.DISABLED)
 
 # create entry box for user input
 entry_box = tk.Entry(window)
