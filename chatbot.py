@@ -1,6 +1,6 @@
 import tkinter as tk
 from chatbot import Chatbot
-from main import chat
+# from main import chat
 
 class ChatbotUI:
     def __init__(self, master):

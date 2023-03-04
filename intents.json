@@ -274,7 +274,8 @@
                 "WHYYYYYY"
             ],
             "context_set": ""
-        },
+        }
+        ,
         {
             "tag": "Welcome Center",
             "patterns": [

@@ -24,4 +24,4 @@ def updateIntentDept():
                 # new_data = json.dumps(data)
                 print (new_data)
                 writeToJson.write_json(new_data)
-updateIntentDept()
+# updateIntentDept()
