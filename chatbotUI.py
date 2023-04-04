@@ -1,4 +1,6 @@
 import tkinter as tk
+from tkinter import *
+import webbrowser
 # import main
 
 # function to handle chatbot logic
@@ -8,6 +10,8 @@ def chatbot_response():
     return response
 # chatbot_response = main.chat()
 chatbot_response = chatbot_response()
+def callback(url):
+   webbrowser.open_new(url)
 
 # function to handle sending user input
 def send_message(event=None):
@@ -24,6 +28,12 @@ def send_message(event=None):
     # display chatbot response in chat window
     chat_window.config(state=tk.NORMAL)
     chat_window.insert(tk.END, "Chatbot: " + chatbot_message + "\n\n")
+
+    link = Label(chat_window, text=chatbot_message, font=('Helvetica', 12, 'underline'), fg="blue", cursor="hand2")
+    link.pack(side="left")
+    link.bind("<Button-1>", lambda e: callback("http://www.example.com"))
+    chat_window.insert(END, "\n")
+
     chat_window.config(state=tk.DISABLED)
     # scroll chat window to bottom
     chat_window.see(tk.END)

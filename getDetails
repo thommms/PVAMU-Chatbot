@@ -1,93 +1,36 @@
-# import urllib.request
-# import PyPDF2
-
-# # URL of the PDF file
-# pdf_url = "https://www.pvamu.edu/sites/hb2504/cvs/All/amahmed.pdf"
-
-# # download the pdf file
-# pdf_file = urllib.request.urlopen(pdf_url).read()
-
-# # create a pdf reader object
-# pdf_reader = PyPDF2.PdfFileReader(pdf_file)
-
-# # iterate through each page of the pdf
-# text = ""
-# for page_num in range(pdf_reader.numPages):
-#     page = pdf_reader.getPage(page_num)
-#     text += page.extractText()
-
-# # write the extracted text to a file
-# with open("pdf_text.txt", "w") as text_file:
-#     text_file.write(text)
-
-
-
-
-
-
-
-
-
-# https://www.pvamu.edu/sites/hb2504/cvs/All/
-# url = 'https://www.pvamu.edu/sites/hb2504/cvs/All/amahmed.pdf'
-
-# import urllib.request
-# import PyPDF2
-
-# pdf_url = "https://www.pvamu.edu/sites/hb2504/cvs/All/amahmed.pdf"
-
-# def pdf_to_text(pdf_url):
-#     # download the pdf file
-#     pdf_file = urllib.request.urlopen(pdf_url).read()
-
-#     # create a pdf reader object
-#     pdf_reader = PyPDF2.PdfFileReader(pdf_file)
-
-#     # iterate through each page of the pdf
-#     text = ""
-#     for page_num in range(pdf_reader.numPages):
-#         page = pdf_reader.getPage(page_num)
-#         text += page.extractText()
-
-#     # write the extracted text to a file
-#     with open("pdf_text.txt", "w") as text_file:
-#         text_file.write(text)
-
-# pdf_to_text(pdf_url)
-
-
-
+import pdfplumber
 import requests
-from io import BytesIO
 import PyPDF2
+import re
 
-def read_pdf(url):
-    response = requests.get(url)
-    pdf_file = BytesIO(response.content)
-    pdf_reader = PyPDF2.PdfReader(pdf_file)
+# Download the PDF file from the URL
+# url = "https://www.pvamu.edu/sites/hb2504/courses/Spring%202023/ACCT%202301-P03.pdf"
+# url = "https://www.pvamu.edu/sites/hb2504/courses/Spring%202023/ACCT%202302-P02.pdf"
+url = "https://www.pvamu.edu/sites/hb2504/courses/Spring%202023/BIOL%202402-P08.pdf"
 
-    text = ""
-    for page_num in range(len(pdf_reader.pages)):
-        page = pdf_reader.pages[page_num]
-        text += page.extract_text()
+response = requests.get(url)
 
-    return text
-
-# url = "https://www.pvamu.edu/sites/hb2504/cvs/All/amahmed.pdf"
-url = "https://www.pvamu.edu/sites/hb2504/cvs/All/kibellam.pdf"
-def get_professor_details(url):
-    text = read_pdf(url)
+# Write the PDF data to a file
+with open("temp.pdf", "wb") as file:
+    file.write(response.content)
 
 
-#create repository for each of the professors
+def search_pdf(keyword, filename):
+    with pdfplumber.open(filename) as pdf:
+        text = ""
+        for page in pdf.pages:
+            text += page.extract_text()
+        lines = text.splitlines()
+        for i, line in enumerate(lines):
+            if keyword in line:
+                return line, lines[i+1] if i+1 < len(lines) else ""
+    return None, None
 
-    # def getOffice_info(text):
-    with open('repository.txt','w') as repo:
-        repo.write(text)
 
-    with open('repository.txt','r') as repo:
-        for line in repo:
-            if "Office Location" in line:
-                print(line)
 
-get_professor_details(url)
+line_with_next_line = search_pdf("Office Hours", "temp.pdf")
+if line_with_next_line[0]:
+    print("Line containing keyword:", line_with_next_line[0])
+    print("Next line:", line_with_next_line[1])
+else:
+    print("Keyword not found in PDF file.")

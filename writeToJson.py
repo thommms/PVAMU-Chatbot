@@ -15,20 +15,20 @@ def write_json(new_data, filename='intents.json'):
     # for data in file_data[intents]:
     unique_data = file_data[intents]
     
-    #replace any duplicate keys with the new value
-    for i,d in enumerate(unique_data):
-        if d["tag"] == new_data["tag"]:
-            unique_data[i]=new_data
-            break
-    else:
-        unique_data.append(new_data)
+    # #replace any duplicate keys with the new value
+    # for i,d in enumerate(unique_data):
+    #     if d["tag"] == new_data["tag"]:
+    #         unique_data[i]=new_data
+    #         break
+    # else:
+    unique_data.append(new_data)
 
     #convert the final list to dictionary
     file_data = {intents:unique_data}
     print (file_data)
 
     # Write the modified data back to the JSON file
-    with open('intents.json', 'w') as file:
+    with open(filename, 'w') as file:
         json.dump(file_data, file, indent=4)
 
 # new_data = {
@@ -43,4 +43,8 @@ def write_json(new_data, filename='intents.json'):
 #         ],
 #         "context_set": ""
 #         }
+# new_data = {
+#         "Name": "Bala5555",
+#         "phone": "chai"
+# }
 # write_json(new_data)
